@@ -25,7 +25,7 @@ class Discovery:
         
 
         snd_socket.sendto("T'es Là ?".encode("utf8"), ('255.255.255.255', self.discovery_port))
-        print(f"Message envoyé depuis {snd_socket.getsockname()}")  # ← AJOUTEZ CECI
+        print(f"Message envoyé depuis {snd_socket.getsockname()}")  
 
 
         while True:
