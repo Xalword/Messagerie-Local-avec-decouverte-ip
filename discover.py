@@ -40,7 +40,7 @@ class Discovery:
                 
             except socket.timeout:
                 print("Timeout - aucune réponse")
-                return None  # ← AJOUTEZ CETTE LIGNE
+                return None  
             except socket.error:
                 break
 
