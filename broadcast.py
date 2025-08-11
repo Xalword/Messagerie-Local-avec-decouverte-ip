@@ -33,6 +33,6 @@ class Attente:
                     break
                 
             except socket.error:
-                print("nikoumouk")
+                print("Erreur de connexion")
                 break
 
